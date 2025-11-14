@@ -15,7 +15,6 @@
 // ========================================================================= 80
 class FractureElement {
 public: 
-    // Constructor without dip parameter
     FractureElement(const Point<3>& center, double theta, double length, double height, int id)
         : center_(center), theta_(theta), length_(length), height_(height), id_(id) {
         computeBoundingBox();

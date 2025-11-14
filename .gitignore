@@ -1,0 +1,32 @@
+# Compiled binaries
+bin/
+fracture_app
+test_bbox
+
+# Build artifacts
+build/
+*.o
+*.a
+*.so
+*.dylib
+
+# Output files
+fracture_output_*.txt
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Core dumps
+core
+core.*
